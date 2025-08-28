@@ -1,0 +1,26 @@
+{
+  "name": "ui-snapshots",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "UI Snapshot Testing Tool for React apps",
+  "main": "dist/index.js",
+  "bin": {
+    "ui-snapshots": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "open": "^10.2.0",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^24.9.0"
+  },
+  "devDependencies": {
+    "@types/pixelmatch": "^5.2.6",
+    "@types/pngjs": "^6.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
